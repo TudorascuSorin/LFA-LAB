@@ -4,10 +4,10 @@ public class MAIN {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String pattern = "^Q[^u]\\d+\\.";
+		String pattern = "^S[^u]\\d+\\.";
         String[] input = {
-            "QA777. is the next flight. It is on time.",
-            "Quack, Quack, Quack!"
+            "So64.",
+            "Soa7."
         };
 
         Pattern p = Pattern.compile(pattern);
